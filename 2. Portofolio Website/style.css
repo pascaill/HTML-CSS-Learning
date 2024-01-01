@@ -1,0 +1,105 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+.Fcontainer {
+  background-color: whitesmoke;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 230px;
+}
+.wrapper {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+.brand {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 5em;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.home {
+  justify-content: center;
+  margin-top: 100px;
+}
+.information {
+  margin: 0;
+  padding: 0;
+}
+.information > p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.8rem;
+}
+.button {
+  justify-content: center;
+  align-items: center;
+}
+.button > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.button > ul > li > a {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+.btn--bg {
+  padding: 0.8rem;
+}
+.btn {
+  background: #7843e9;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+.about {
+  height: 100vh;
+}
+.main-about {
+  padding: 0;
+  margin: 0;
+}
+.heading-sec-main {
+  display: block;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  position: bottom;
+  color: #111;
+}
+.heading-sec-sub {
+  font-family: Unna;
+  font-size: 1.8rem;
+}
