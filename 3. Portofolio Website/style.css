@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+.nama {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 1px;
+}
+.keterangan {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+}
+.nama > h1 {
+  font-size: 80px;
+  color: red;
+}
+.keterangan > p {
+  font-family: Unna;
+  font-size: 50px;
+  color: white;
+  margin-left: 220px;
+}
+.navigation {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+}
+.navigation > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation > ul > li > a {
+  font-family: Unna;
+  font-size: 50px;
+  color: brown;
+  text-decoration: none;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+}
+.btn--bg {
+  padding: 0.1px;
+}
+.btn {
+  background: white;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
