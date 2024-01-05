@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  color: inherit;
+  /*supaya warna listnya mengikuti di medsos ul li nya  */
+  text-decoration: none;
+}
+.medsos {
+  padding: 5px 0;
+  background-color: #cacfd2;
+}
+.medsos ul li {
+  display: inline-block;
+  color: white;
+  margin-right: 50px;
+  font-size: 2em;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+header {
+}
+header h1 {
+  float: left;
+  padding: 15px 0px;
+  color: #cacfd2;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li a:hover {
+  background-color: #cacfd2;
+  color: white;
+}
+.active {
+  background-color: #cacfd2;
+  color: white;
+}
